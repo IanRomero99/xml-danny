@@ -15,7 +15,7 @@
     }
     ?>
     <h1>Pantalla 2</h1>
-    <a href="">Volver a jugar</a>
+    <a href="../proc/replay.proc.php">Volver a jugar</a>
 
 </body>
 </html>
