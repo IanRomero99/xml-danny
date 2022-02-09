@@ -7,7 +7,15 @@
     <title>Document</title>
 </head>
 <body>
+    <?php
+    // recupero la sesión
+    session_start();
+    if (!($_SESSION["pantalla2"]=='check')) {
+        header("Location: ../index.php");
+    }
+    ?>
     <h1>Pantalla 2</h1>
+    <a href="">Volver a jugar</a>
 
 </body>
 </html>

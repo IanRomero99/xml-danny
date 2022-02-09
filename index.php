@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <h1>index</h1>
+    <h1>Index</h1>
     <form action="proc/res.proc.php" method="post">
         <input type="text" name="pokemon" placeholder="Inserte pokemon...">
         <input type="submit" name="index">
